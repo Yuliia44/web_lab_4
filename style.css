@@ -1,0 +1,153 @@
+.pos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body {
+    font-family: sans-serif, Helvetica, sans-serif; /* Вибір шрифту */
+    font-size: 25px; /* Розмір шрифту */
+}
+h1, h2 {
+    font-family: sans-serif, Helvetica, sans-serif, sans-serif; /* Шрифт заголовків */
+    text-align: center; /* Вирівнювання тексту по центру */
+}
+td {
+    font-size: 25px; /* Розмір тексту в комірках таблиці */
+    text-align: center; /* Вирівнювання тексту в комірках по центру */
+}
+.banner-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff; /* Колір тексту */
+    font-size: 50px; /* Розмір шрифту */
+    font-weight: bold; /* Товщина шрифту */
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5); /* Тінь тексту */
+}
+
+.race-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.race-item {
+    flex: 0 0 45%; /* Ширина елементу, яка займає 45% ширини батьківського контейнера */
+    margin: 15px;
+    text-align: center;
+}
+.race-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+font {
+    font-weight: 800;
+}
+font.papaya {
+    font-weight:800;
+    font-family:sans-serif, Helvetica, sans-serif;
+    color:#ff8000;
+}
+.pilot-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.pilot {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.pilot img {
+    max-width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.pilot-details {
+    flex: 1;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Колір фону хедера */
+    z-index: 1000; /* Забезпечуємо, що хедер буде поверх інших елементів */
+}
+
+.sticky-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-header nav ul li {
+    display: inline;
+}
+
+.sticky-header nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white; /* Колір тексту */
+    text-decoration: none;
+}
+
+.sticky-header nav ul li a:hover {
+    background-color: #ff8000; /* Колір фону при наведенні */
+}
+
+header, footer {
+    width: calc(80% + 70px);
+    background-color: #ededed;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+    #leftBlock, #infopage, #rightBlock {
+    background-color: #ededed;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    float: left;
+}
+    #leftBlock, #rightBlock {
+    width: 5%;
+}   
+    #infopage {
+    width: 80%;
+}
+    #leftBlock {
+    margin-left: 5%;
+}
+    #rightBlock {
+    margin-right: 5%;
+}
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff8000; /* Колір кнопки в стані за замовчуванням */
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .button:hover {
+        background-color: orangered; /* Змінюємо колір кнопки при наведенні */
+    }
+    #dynamic-content {
+        margin-top: 20px;
+    }
+
